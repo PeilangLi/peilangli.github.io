@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About me
 permalink: /
 subtitle: PhD student at <a href='https://www.utsa.edu/'>The University of Texas at San Antonio</a>.
 
