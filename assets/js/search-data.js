@@ -57,14 +57,14 @@ ninja.data = [{
           section: "News",},{id: "news-paper-accepted-at-the-24th-international-conference-on-autonomous-agents-and-multiagent-systems-aamas-2025-as-extended-abstract",
           title: 'Paper accepted at the 24th International Conference on Autonomous Agents and Multiagent Systems...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-",
+          title: '',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-interpretable-reinforcement-learning-via-shapley-values",
+          title: 'Interpretable Reinforcement Learning via Shapley Values',
+          description: "Bridging explainability and interpretability in RL policies using model-agnostic Shapley analysis.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
