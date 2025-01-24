@@ -67,9 +67,9 @@ ninja.data = [{
           description: "Bridging explainability and interpretability in RL policies using model-agnostic Shapley analysis.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-fair-multi-agent-reinforcement-learning",
+          title: 'Fair Multi-Agent Reinforcement Learning',
+          description: "Achieving equitable outcomes in cooperative systems via welfare optimization and attention mechanisms.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
