@@ -9,6 +9,9 @@
       archivePrefix={arXiv},
       primaryClass={cs.LG},
       url={https://arxiv.org/abs/2501.09858},
+      bibtex_show={true},
+      html={https://arxiv.org/abs/2501.09858},
+      abstract = {Deep reinforcement learning (RL) has shown remarkable success in complex domains, however, the inherent black box nature of deep neural network policies raises significant challenges in understanding and trusting the decision-making processes. While existing explainable RL methods provide local insights, they fail to deliver a global understanding of the model, particularly in high-stakes applications. To overcome this limitation, we propose a novel model-agnostic approach that bridges the gap between explainability and interpretability by leveraging Shapley values to transform complex deep RL policies into transparent representations. The proposed approach offers two key contributions: a novel approach employing Shapley values to policy interpretation beyond local explanations and a general framework applicable to off-policy and on-policy algorithms. We evaluate our approach with three existing deep RL algorithms and validate its performance in two classic control environments. The results demonstrate that our approach not only preserves the original models' performance but also generates more stable interpretable policies.},
       selected={true},
       preview={dai.jpg},
 }
@@ -18,6 +21,9 @@
   author={Siddique, Umer and Li, Peilang and Cao, Yongcan},
   booktitle={Coordination and Cooperation for Multi-Agent Reinforcement Learning Methods Workshop},
   year={2024},
+  bibtex_show={true},
+  html={https://openreview.net/forum?id=OC5aj4oVdL},
+  abstract={In this paper, we consider the problem of learning independent fair policies in cooperative multi-agent reinforcement learning (MARL). The objective is to design multiple policies simultaneously that can optimize a welfare function for fairness. To achieve this objective, we propose a novel Fairness-Aware multi-agent Proximal Policy Optimization (FAPPO) algorithm, which learns individual policies for all agents separately and optimizes a welfare function to ensure fairness among them, in contrast to optimizing the discounted rewards. The proposed approach is shown to learn fair policies in the independent learning setting, where each agent estimates its local value function. When inter-agent communication is allowed, we further introduce an attention-based variant of FAPPO (AT-FAPPO) by incorporating a self-attention mechanism for inter-agent communication. This variant enables agents to communicate and coordinate their actions, potentially leading to more fair solutions by leveraging the ability to share relevant information during training. To show the effectiveness of the proposed methods, we conduct experiments in two environments and show that our approach outperforms previous methods both in terms of efficiency and equity.},
   selected={true},
   preview={rlc2024.jpg},
 }
@@ -27,6 +33,9 @@
   author={Siddique, Umer and Li, Peilang and Cao, Yongcan},
   booktitle={Multi-Agent reinforcement Learning for Transportation Autonomy},
   year={2025},
+  bibtex_show={true},
+  html={https://openreview.net/forum?id=Y1wckpUjsd},
+  abstract={In this paper, we address the issue of learning fair policies in decentralized cooperative multi-agent reinforcement learning (MARL), with a focus on traffic light control systems. We show that standard MARL algorithms that optimize the expected rewards often lead to unfair treatment across different intersections. To overcome this limitation, we design control policies that optimize a generalized Gini welfare function that explicitly encodes two aspects of fairness: efficiency and equity. Specifically, we propose three novel adaptations of MARL baselines that enable agents to learn decentralized fair policies, where each agent estimates its local value function while contributing to welfare optimization. We validate our approaches through extensive experiments across six traffic control environments with varying complexities and traffic layouts. The results demonstrate that our proposed methods consistently outperform existing MARL approaches both in terms of efficiency and equity.},
   selected={true},
   preview={malta.png},
 }
